@@ -3,10 +3,11 @@
 <head>
   <title>Academics</title>
     <link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 </head>
 <body>
   <!--***nav***-->
-  <div class="row">
+ <div class="row">
       <div id="myheader" class="col-lg-12">
         <div class="container">
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -20,18 +21,15 @@
       <li class="nav-item active">
         <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
       </li>
-      <li class="nav-item dropdown show">
-    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="Our School.html" role="button" aria-haspopup="true" aria-expanded="true">Our School</a>
-    <div class="dropdown-menu show" x-placement="bottom-start" style="position: absolute; transform: translate3d(0px, 40px, 0px); top: 0px; left: 0px; will-change: transform;">
-      <a class="dropdown-item" href="#">School History</a>
-      <a class="dropdown-item" href="#">Vision-Mission</a>
-      <a class="dropdown-item" href="#">School Philosophies</a>
-     <div class="tab-pane fade" id="dropdown1">
-    
-  <div class="tab-pane fade" id="dropdown2">
-  </div>
+      <div class="w3-dropdown-hover">
+      <button class="w3-button">Our School</button>
+      <div class="w3-dropdown-content w3-bar-block w3-card-4">
+        <a href="Our School.html#School-History" class="w3-bar-item w3-button">School History</a>
+        <a href="Our School.html#School-Vision" class="w3-bar-item w3-button">Vision-Mission</a>
+        <a href="Our School.html#School-Philosophies" class="w3-bar-item w3-button">School Philosophies</a>
+ </div>
     </div>
-  </li>
+
       <li class="nav-item">
         <a class="nav-link" href="Academics.html">Academics</a>
       </li>
@@ -42,12 +40,6 @@
         <a class="nav-link" href="Contact Us.html">Contact Us</a>
       </li>
     </ul>
-    <div class="tab-pane fade" id="dropdown1">
-      
-  </div>
-  <div class="tab-pane fade" id="dropdown2">
-    
-  </div>
   </div>
 </nav>
   <!--***/nav***-->
